@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sentiance SDK Integration</string>
+    <string name="user_id_success_label">Sentiance user: \n </string>
+    <string name="sentiance_title_label">sentiance</string>
+    <string name="sentiance_subtitle_label">POWERING THE INTERNET OF YOU</string>
+    <string name="user_id_failure_label">Sentiance SDK error occured</string>
+    <string name="sentiance_version_success_label">Sentiance version: \n</string>
+    <string name="sentiance_version_failure_label">Sentiance version error</string>
+</resources>

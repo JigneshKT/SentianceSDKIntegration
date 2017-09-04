@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:visibility="visible"
+        android:id="@+id/tv_title"
+        android:text="@string/sentiance_title_label"
+        android:textSize="40dp"
+        android:lines="1"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:visibility="visible"
+        android:id="@+id/tv_subtitle"
+        android:text="@string/sentiance_subtitle_label"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:lines="1"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/tv_user_id"
+        android:text="@string/user_id_success_label"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:lines="2"
+        android:background="@drawable/sentiance_button"
+        android:textColor="@android:color/white"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/tv_user_id"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignRight="@+id/tv_user_id"
+        android:layout_alignLeft="@+id/tv_user_id"
+        android:id="@+id/tv_sentiance_version"
+        android:text="@string/sentiance_version_success_label"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:lines="2"
+        android:visibility="gone"
+        android:background="#FF3D49"
+        android:textColor="@android:color/white"
+        />
+
+
+
+
+</RelativeLayout>
